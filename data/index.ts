@@ -1,24 +1,26 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Nosotros", link: "#about" },
+//  { name: "Projects", link: "#projects" },
+  // { name: "Testimonios", link: "#testimonials" },
+  { name: "Experiencias", link: "#experience" },
+  { name: "Suerte", link: "#suerte" },
+  { name: "Contacto", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Reforzamos tu relacion, analizamos desde otra perspectiva",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/relac.png",
     spareImg: "",
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Nos puedes contactar desde cualquier lugar del mundo",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +30,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Enfocados en",
+    description: "La paz y el cambio",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Nuestro deber es lograr transformarte y que nadie pueda resistirse a ti.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,17 +51,17 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Atendemos de manera online y presencial.",
+    description: "Para consultas y preguntas",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 rounded-lg",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/customService.png",
     spareImg: "/grid.svg",
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Empezamos el cambio de inmediato. ¿Qué esperas?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -107,33 +109,41 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Estoy muy agradecido con el equipo de Marta. Su compromiso y apoyo fueron fundamentales para que mi pareja y yo pudiéramos superar los retos que enfrentábamos. Nos brindaron herramientas y comprensión para mejorar nuestra comunicación. Recomiendo sus servicios a cualquier pareja que busque una solución profesional y efectiva.",
+  
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
+    img: "/profile.svg"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+     "Trabajar con Laura fue una experiencia maravillosa. Su profesionalismo, prontitud y dedicación para ofrecer resultados excepcionales se notaron a lo largo de todo el proceso. La pasión de Laura por ayudar en cada aspecto de nuestra relación realmente se destacó. Si buscas mejorar tu relación de pareja y encontrar armonía, Laura es la persona ideal.",
+   
+    name: "Carlos Fernández",
+    title: "Maestro de primaria",
+    img: "/profile1h.png"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+       "Después de buscar soluciones sin éxito, trabajar con Alejandro fue una revelación. Nos ofreció las herramientas precisas para entendernos mejor y superar nuestros problemas. Ahora disfrutamos de una relación más saludable y feliz, todo gracias a su apoyo.",
+    name: "Ana Rodríguez",
+    title: "Enfermera jefe",
+    img: "/profile3m.png"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+        "Gracias a Juan, mi pareja y yo hemos recuperado la confianza y el amor que pensábamos perdidos. Su enfoque fue siempre cercano, humano y profesional. Ahora vivimos nuestra relación de una manera más plena y feliz. No puedo agradecerle lo suficiente por su ayuda.",
+    name: "María Gutiérrez",
+    title: "Dependienta",
+    img: "/profile4m.png"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+       "El apoyo que recibimos de Sofía ha sido invaluable. Nos guió con paciencia y sabiduría a través de los momentos más difíciles, y ahora nuestra relación es más fuerte que nunca. Estamos eternamente agradecidos por su ayuda y profesionalismo.",
+
+    name: "Javier Pérez",
+    title: "Ingeniero civil",
+    img: "/profile2h.png"
   },
 ];
 
@@ -173,31 +183,31 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Mentor/a en relaciones",
+    desc: "te ofrecemos una guía personalizada y experta para transformar la forma en que te relacionas con los demás.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp1.png",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Armonía entre los seres",
+    desc: "El amor puede ser tanto un refugio como un desafío, pero siempre tiene lecciones para enseñarnos. Si te encuentras en un momento de duda o dolor emocional, confía en que hay respuestas. Te ayudamos a comprender los ciclos del amor, a sanar el desamor y a descubrir cómo fortalecer tus conexiones más profundas. El viaje hacia el amor verdadero empieza con la claridad emocional.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp2.png",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Descubre el poder de tu signo zodiacal",
+    desc: "Cada signo zodiacal tiene un propósito, un camino único marcado por las estrellas. A través de la astrología, puedes encontrar las respuestas a preguntas que han estado en tu corazón por años. ¿Qué te deparan los próximos meses? ¿Cómo puedes aprovechar mejor tu energía zodiacal? Descubre qué está escrito en tu carta astral y conecta con tu ser interior.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp3.png",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Atrae la buena suerte a tu vida",
+    desc: "A veces, la vida necesita un empujón de buena fortuna. Conecta con las energías positivas que están a tu alrededor y descubre cómo puedes atraer suerte y prosperidad en cada aspecto de tu vida. Desde oportunidades inesperadas hasta momentos mágicos, la suerte está de tu lado si sabes cómo invocarla. ¡Es tu momento de brillar y recibir todo lo que mereces!",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp4.png",
   },
 ];
 

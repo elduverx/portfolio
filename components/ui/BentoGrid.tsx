@@ -52,8 +52,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["Roturas", "Acercamientos", "Perfumes"];
+  const rightLists = ["Suerte", "Dinero", "Rituales"];
 
   const [copied, setCopied] = useState(false);
 
@@ -67,10 +67,14 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
-    navigator.clipboard.writeText(text);
-    setCopied(true);
-  };
+  const url = "https://wa.me/+34610753920"; // Cambia esto por la URL de destino 
+   window.open(url, "_blank");
+};
+  // const handleCopy = () => {
+  //   const text = "+34610753920";
+  //   navigator.clipboard.writeText(text);
+  //   setCopied(true);
+  // };
 
   return (
     <div
@@ -170,7 +174,7 @@ export const BentoGridItem = ({
             </div>
           )}
           {id === 6 && (
-            <div className="mt-5 relative">
+            <div className="mt-5 relative ">
               {/* button border magic from tailwind css buttons  */}
               {/* add rounded-md h-8 md:h-8, remove rounded-full */}
               {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
@@ -184,7 +188,7 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email address"}
+                title={copied ? "Cita WhatsApp!" : "Cita WhatsApp!"}
                 icon={<IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}

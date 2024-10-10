@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import {
   motion,
   AnimatePresence,
@@ -8,6 +8,10 @@ import {
 } from "framer-motion";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import MagicButton from "../MagicButton";
+import { IoCopyOutline } from "react-icons/io5";
+import { url } from "inspector";
+
 
 export const FloatingNav = ({
   navItems,
@@ -42,6 +46,8 @@ export const FloatingNav = ({
       }
     }
   });
+
+
 
   return (
     <AnimatePresence mode="wait">
@@ -85,11 +91,6 @@ export const FloatingNav = ({
             <span className=" text-sm !cursor-pointer">{navItem.name}</span>
           </Link>
         ))}
-        {/* remove this login btn */}
-        {/* <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
-          <span>Login</span>
-          <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
-        </button> */}
       </motion.div>
     </AnimatePresence>
   );

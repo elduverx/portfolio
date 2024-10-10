@@ -4,6 +4,12 @@ import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 
 const Footer = () => {
+            
+  const handleCopy = () => {
+  const url = "https://wa.me/+34610753920"; // Cambia esto por la URL de destino 
+   window.open(url, "_blank");
+};
+
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       {/* background grid */}
@@ -17,24 +23,25 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          Listo para tomar <span className="text-purple">las riendas</span> de tu vida
+          y dar paso al siguiente nivel?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
-        </p>
-        <a href="mailto:contact@jsmastery.pro">
+          Encuentranos hoy mismo, hablemos y podemos ayudarte a alcanzar tus metas
+          </p>
+
+        <a>
           <MagicButton
-            title="Let's get in touch"
+            title="Separa tu Cita"
             icon={<FaLocationArrow />}
             position="right"
+            handleClick={handleCopy}
           />
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Adrian Hajdin
+          Copyright © 2024 DuverxDev
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
